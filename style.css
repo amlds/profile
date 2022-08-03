@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+  color: #B8B8B8;
+  background-color: #161616;
+}
+
+h1{
+  font-size: 24px;
+  color: #FAFAFA;
+  margin: 0;
+}
+
+h2{
+  font-size: 20px;
+  color : #FAFAFA;
+  margin: 0;
+}
+
+a{
+  font-size: 16px;
+  text-decoration:none;
+  color: #B8B8B8;
+}
+
+a:hover{
+  color: #FAFAFA;
+  transition: 0.4s;
+}
+
+p{
+  font-size: 16px;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align: center;
+  background-color: #242424;
+  margin: 20px 10vw;
+  padding: 20px 20px;
+}
+.card--img{
+  border-radius: 10vw;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.card--button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 45px;
+  gap: 11px;
+  
+  width: auto;
+  height: 28px;
+  
+  border: 1px solid #FAFAFA;
+  border-radius: 19px;
+}
+
+.flex-row{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.card--logo{
+  font-size: 40px;
+}
